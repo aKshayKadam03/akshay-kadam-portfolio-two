@@ -86,7 +86,7 @@ let projectArray = [
       "MongoDB",
     ],
     repoLink: "https://github.com/therealdrtroll/sanjeevani",
-    demoLink: "#",
+    demoLink: "https://sanj-front.vercel.app/",
     type:
       "A collaborative project built by a team of 3 under 2 days during Masai Hackathon 2021.",
     blogLink: "#",
