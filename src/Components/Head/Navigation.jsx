@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Switch from "react-switch";
 import day from "../Icons/day.svg";
 import night from "../Icons/night.svg";
-import { Link } from "react-router-dom";
 
 const NavBar = styled.div`
   width: 100%;
