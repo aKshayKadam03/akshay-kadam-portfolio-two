@@ -206,64 +206,96 @@ function Contact({ currentTheme }) {
         <FindMeElseWhere>
           <div title="Click here to call">
             <div>
-              <a href="tel:+917975960302">
+              <a target="_blank" rel="noreferrer" href="tel:+917975960302">
                 {/* <i className="fas fa-phone-square-alt"></i> */}
                 <i className="fas fa-phone-alt"></i>
               </a>
             </div>
             <div>
-              <a href="tel:+917975960302">
+              <a target="_blank" rel="noreferrer" href="tel:+917975960302">
                 <p>+91 7975960302</p>
               </a>
             </div>
           </div>
           <div title="Click here to mail">
             <div>
-              <a href="mailto:akshaykadam7991@gmail.com">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:akshaykadam7991@gmail.com"
+              >
                 {/* <i className="fas fa-envelope-square"></i> */}
                 <i className="fas fa-envelope"></i>
               </a>
             </div>
             <div>
-              <a href="mailto:akshaykadam7991@gmail.com">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:akshaykadam7991@gmail.com"
+              >
                 <p>akshaykadam7991@gmail.com</p>
               </a>
             </div>
           </div>
           <div title="Click here go to github profile">
             <div>
-              <a href="https://github.com/therealdrtroll">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/therealdrtroll"
+              >
                 {/* <i className="fab fa-github-square"></i> */}
                 <i className="fab fa-github"></i>
               </a>
             </div>
             <div>
-              <a href="https://github.com/therealdrtroll">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/therealdrtroll"
+              >
                 <p>github.com/therealdrtroll</p>
               </a>
             </div>
           </div>
           <div title="Click here go to linkedin profile">
             <div>
-              <a href="https://www.linkedin.com/in/akshaykadam7991/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/akshaykadam7991/"
+              >
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>
             <div>
-              <a href="https://www.linkedin.com/in/akshaykadam7991/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/akshaykadam7991/"
+              >
                 <p>linkedin.com/in/akshaykadam7991</p>
               </a>
             </div>
           </div>
           <div title="Click here go to medium profile">
             <div>
-              <a href="https://ar1pperk.medium.com/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://ar1pperk.medium.com/"
+              >
                 {/* <i className="fab fa-medium"></i> */}
                 <i className="fab fa-medium-m"></i>
               </a>
             </div>
             <div>
-              <a href="https://ar1pperk.medium.com/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://ar1pperk.medium.com/"
+              >
                 <p>ar1pperk.medium.com</p>
               </a>
             </div>
