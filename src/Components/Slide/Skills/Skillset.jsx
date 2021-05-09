@@ -77,14 +77,13 @@ const Icons = styled.figure`
     height: 50px;
     width: 50px;
     margin: 10px 0;
-    /* filter: ${(props) => props.theme.iconFilter}; */
-    // filter: invert(${(props) => (props.invert ? " 50%" : "0%")});
     background-color: #fffafa;
     padding: 10px;
     border-radius: 5px;
   }
 
   @media (max-width: 768px) {
+    width: 50px;
   }
 `;
 

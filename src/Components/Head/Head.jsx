@@ -4,11 +4,6 @@ import Navigation from "./Navigation";
 import Lottie from "react-lottie";
 import scroll from "../Animations/scrollDown.json";
 import ak from "../Images/cropped.png";
-import github from "../Icons/github.svg";
-import linkedin from "../Icons/linkedin.svg";
-import medium from "../Icons/medium.svg";
-import blob from "../Images/blob.svg";
-import sceneOne from "../Images/sceneOne.svg";
 
 import { MainHeadingWrapper, ParagraphWrapper } from "../Elements/Elements";
 
@@ -52,6 +47,7 @@ const HeaderContent = styled.div`
     margin: 20px auto;
     width: fit-content;
     max-width: 800px;
+    height: 30vh;
   }
   @media (max-width: 1000px) {
     flex-direction: column-reverse;
@@ -73,6 +69,7 @@ const Heading = styled.div`
   flex-direction: column;
   margin: 0 auto;
 
+  justify-content: space-between;
   h1 {
     font-size: 60px;
     margin: 0;
