@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Proficiencies from "./Skills/Proficiencies";
 import Projects from "./Projects/Projects";
 import TimeLine from "./TimeLine/TimeLine";
 import Skillset from "./Skills/Skillset";
@@ -11,8 +10,7 @@ import envelope from "../Images/envelope.svg";
 import envelopeBottom from "../Images/bottom.svg";
 
 //resume images
-import resumeOne from "../Images/resumeOne.png";
-import resumeTwo from "../Images/resumeTwo.png";
+
 import resumeFinal from "../Images/resumeFinal.png";
 
 const SliderWrapper = styled.div`
