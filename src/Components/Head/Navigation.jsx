@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Switch from "react-switch";
 import day from "../Icons/day.svg";
 import night from "../Icons/night.svg";
+import { Translate } from "@material-ui/icons";
 
 const NavBar = styled.div`
   width: 100%;
@@ -89,13 +90,13 @@ function Navigation({ themeToggler, currentTheme }) {
           offHandleColor="#0A192F"
           onHandleColor="#000000"
           checkedHandleIcon={
-            <div style={{ overflow: "hidden" }}>
+            <div style={{ position: "relative", overflow: "hidden" }}>
               <img
                 style={{
                   objectFit: "contain",
-                  width: "100%",
+                  width: "60%",
                   overflow: "hidden",
-                  height: "14px",
+                  padding: "4px",
                 }}
                 src={night}
                 alt="night"
@@ -107,9 +108,9 @@ function Navigation({ themeToggler, currentTheme }) {
               <img
                 style={{
                   objectFit: "contain",
-                  width: "100%",
+                  width: "60%",
                   overflow: "hidden",
-                  height: "14px",
+                  padding: "4px",
                 }}
                 src={day}
                 alt="day"

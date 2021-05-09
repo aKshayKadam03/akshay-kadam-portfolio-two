@@ -15,6 +15,7 @@ import mongodb from "../../Icons/mongodb.svg";
 import redis from "../../Icons/redis.svg";
 import git from "../../Icons/git.svg";
 import heroku from "../../Icons/heroku.svg";
+import mysql from "../../Icons/mysql.svg";
 
 const frontEndIcons = [
   { icon: html, caption: "HTML" },
@@ -26,6 +27,7 @@ const frontEndIcons = [
   { icon: node, caption: "Node" },
   { icon: express, caption: "Express", invert: true },
   { icon: mongodb, caption: "MongoDB" },
+  { icon: mysql, caption: "MySQL" },
   { icon: redis, caption: "Redis" },
   { icon: git, caption: "Git" },
   { icon: heroku, caption: "Heroku" },
