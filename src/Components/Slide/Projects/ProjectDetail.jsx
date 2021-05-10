@@ -187,6 +187,7 @@ const ProjectIcon = styled.div`
   }
   > div > img {
     height: 30px;
+    width: 30px;
     margin: 10px;
     background-color: #fffafa;
     padding: 10px;
