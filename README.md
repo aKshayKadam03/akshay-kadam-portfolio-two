@@ -13,6 +13,7 @@ This portfolio was built under guidance of masai school instructors during the f
 ### Feel free to edit this project for your own use.
 
 ## Credits
+* Design Inspiration [Alec Ortega](http://www.alecortega.com/ )
 
 ## Tech Stack
 * HTML
