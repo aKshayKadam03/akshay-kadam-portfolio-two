@@ -43,11 +43,9 @@ const BridgeTwo = styled.div`
 
 let projectArray = [
   {
-    img: "https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png",
-    title: "Royal Brothers",
-    description:
-      "A web application to rent two-wheelers on monthly and daily basis.",
-
+    img: "https://user-images.githubusercontent.com/39058941/118169677-d89fe500-b446-11eb-918f-0e1026579291.png",
+    title: "Geek Shop",
+    description: "E-Commerce shop",
     techStack: [
       "HTML",
       "CSS",
@@ -58,16 +56,16 @@ let projectArray = [
       "Express",
       "MongoDB",
     ],
-    repoLink: "https://github.com/therealdrtroll/royal_brothers",
-    demoLink: "https://royalbrothersak.netlify.app/",
-    type: "A collaborative project built by a team of 3 executed in 4 days.",
-    blogLink:
-      "https://ar1pperk.medium.com/building-a-bike-rental-website-from-scratch-28572c5565f7",
-    responsibilities: [
-      "Built REST API and integrated it with the frontend.",
-      "Laid out the database schema and built authentication.",
-      "Developed the Home and Tariff page.",
-      "Integrated the frontend and backend.",
+    repoLink: "https://github.com/therealdrtroll/geek-shop",
+    demoLink: "https://geekshopak.netlify.app/",
+    type: "Solo project",
+    blogLink: "#",
+    features: [
+      "Signup and Login.",
+      "A user can add a product to cart or to wishlist.",
+      "A user can sort and filter.",
+      "A user can order by filling in the required details",
+      "Orders history can be viewer in profile page",
     ],
   },
   {
@@ -87,12 +85,57 @@ let projectArray = [
     demoLink: "https://sanj-front.vercel.app/",
     type: "A collaborative project built by a team of 3 under 2 days during Masai Hackathon 2021.",
     blogLink: "#",
+    features: [
+      "Signup and Login.",
+      "Users who are seeking help or who can provide help can post about the same",
+      "Users can also read through the map and provide help or seek help depending upon location",
+      "Allows users to have records of all the provided and seeked helps by giving them badges",
+      "Lets users have discussion below a post",
+      "Lets users contact each other without any middle man",
+    ],
     responsibilities: [
       "Developed the database schema and backend",
       "Built dashboard user interface and submission forms",
       "Developed the map for seekers and providers",
     ],
   },
+  {
+    img: "https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png",
+    title: "Royal Brothers ",
+    description:
+      "A web application to rent two-wheelers on monthly and daily basis.",
+
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "MaterialUI",
+      "Node",
+      "Express",
+      "MongoDB",
+    ],
+    repoLink: "https://github.com/therealdrtroll/royal_brothers",
+    demoLink: "https://royalbrothersak.netlify.app/",
+    type: "A collaborative project built by a team of 3 executed in 4 days.",
+    blogLink:
+      "https://ar1pperk.medium.com/building-a-bike-rental-website-from-scratch-28572c5565f7",
+    features: [
+      "Login and Signup",
+      "A user can choose a location from where he wants to choose a bike",
+      "User can choose the date and time for pickup and drop along with the choice of his/her bike",
+      "A user can choose between monthly and daily rental plans",
+      "A user can pay through card",
+      "All the order history is recorded in user profile",
+    ],
+    responsibilities: [
+      "Built REST API and integrated it with the frontend.",
+      "Laid out the database schema and built authentication.",
+      "Developed the Home and Tariff page.",
+      "Integrated the frontend and backend.",
+    ],
+  },
+
   {
     img: "https://user-images.githubusercontent.com/39058941/115154017-68e04980-a096-11eb-8c0c-820652ed499e.png",
     title: "Sudoku",
@@ -103,16 +146,15 @@ let projectArray = [
     demoLink: "https://sudoku-solver-animated.netlify.app/",
     type: "Solo project",
     blogLink: "#",
-    responsibilities: [
-      "Built REST API and integrated it with the frontend.",
-      "Laid out the database schema and built authentication.",
-      "Developed the Home and Tariff page.",
-      "Integrated the frontend and backend.",
+    features: [
+      "User can solve a puzzle",
+      "User can submit a puzzle and solve",
+      "User can get solution for a puzzle using auto-solve",
     ],
   },
   {
     img: "https://user-images.githubusercontent.com/39058941/118371705-7d4b2f80-b5cb-11eb-9cfd-a5a917f759e0.png",
-    title: "Product Hunt",
+    title: "Product Hunt ",
     description:
       "An online product portal where users can browse, research, and post products. ",
     techStack: ["HTML", "CSS", "JavaScript", "React", "MaterialUI"],
@@ -121,6 +163,13 @@ let projectArray = [
     demoLink: "https://producthuntalpha.netlify.app/",
     blogLink:
       "https://ar1pperk.medium.com/how-can-you-collab-remotely-to-develop-an-effective-product-in-4-days-ff3d2a0168dd",
+    features: [
+      "Research products and post products.",
+      "Research jobs and post jobs.",
+      "Raise a discussion and comment under it.",
+      "Book an appointment with your favourite product mentor.",
+    ],
+
     responsibilities: [
       "Scraped data from the original product hunt.",
       "Developed pixel-perfect UI of the product page.",

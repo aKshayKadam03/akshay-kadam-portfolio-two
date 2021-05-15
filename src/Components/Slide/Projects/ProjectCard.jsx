@@ -82,6 +82,7 @@ function ProjectCard({
   demoLink,
   setCurrentProject,
   setPanel,
+  features,
 }) {
   const onClickHandler = () => {
     setPanel(true);
@@ -97,6 +98,7 @@ function ProjectCard({
       demoLink,
       setCurrentProject,
       setPanel,
+      features,
     });
   };
 

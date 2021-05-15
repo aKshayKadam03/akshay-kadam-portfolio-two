@@ -131,17 +131,23 @@ const ProjectSection = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+
   > div:nth-child(2) {
+    width: 100%;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: space-between;
+
     > div {
       margin-bottom: 30px;
       display: flex;
+
       > div:nth-child(1) {
-        width: 220px;
+        > p {
+          width: 180px;
+        }
       }
       @media (max-width: 768px) {
         flex-direction: column;
@@ -237,11 +243,11 @@ function ProjectDetail({
   demoLink,
   setPanel,
   panel,
+  features,
 }) {
   const onCloseHandler = () => {
     setPanel(false);
   };
-  console.log(title, blogLink, repoLink, demoLink);
 
   return (
     <ProjectDetailWrapper id="solo" status={panel}>
@@ -294,18 +300,35 @@ function ProjectDetail({
               ))}
             </ProjectIcon>
           </div>
-          <div>
-            <ParagraphWrapper color="yellow">
-              <p>Responsibilities :</p>
-            </ParagraphWrapper>
+          {features !== undefined && (
             <div>
-              {responsibilities?.map((item) => (
-                <ParagraphWrapper key={uuid()} color="white">
-                  <p>• {item}</p>
-                </ParagraphWrapper>
-              ))}
+              <ParagraphWrapper color="yellow">
+                <p>Features</p>
+              </ParagraphWrapper>
+              <div>
+                {features?.map((item) => (
+                  <ParagraphWrapper key={uuid()} color="white">
+                    <p>• {item}</p>
+                  </ParagraphWrapper>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
+          {responsibilities !== undefined && (
+            <div>
+              <ParagraphWrapper color="yellow">
+                <p>Responsibilities</p>
+              </ParagraphWrapper>
+              <div>
+                {responsibilities?.map((item) => (
+                  <ParagraphWrapper key={uuid()} color="white">
+                    <p>• {item}</p>
+                  </ParagraphWrapper>
+                ))}
+              </div>
+            </div>
+          )}
+
           <ButtonHolders>
             {repoLink !== "#" && (
               <a target="_blank" rel="noreferrer" href={repoLink}>
