@@ -43,8 +43,7 @@ const BridgeTwo = styled.div`
 
 let projectArray = [
   {
-    img:
-      "https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png",
+    img: "https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png",
     title: "Royal Brothers",
     description:
       "A web application to rent two-wheelers on monthly and daily basis.",
@@ -72,8 +71,7 @@ let projectArray = [
     ],
   },
   {
-    img:
-      "https://user-images.githubusercontent.com/39058941/115980813-38744000-a5ad-11eb-84ee-11823f9dad9f.png",
+    img: "https://user-images.githubusercontent.com/39058941/115980813-38744000-a5ad-11eb-84ee-11823f9dad9f.png",
     title: "Sanjeevani",
     description: "Online portal to seek or provide help in these covid crisis.",
     techStack: [
@@ -87,8 +85,7 @@ let projectArray = [
     ],
     repoLink: "https://github.com/therealdrtroll/sanjeevani",
     demoLink: "https://sanj-front.vercel.app/",
-    type:
-      "A collaborative project built by a team of 3 under 2 days during Masai Hackathon 2021.",
+    type: "A collaborative project built by a team of 3 under 2 days during Masai Hackathon 2021.",
     blogLink: "#",
     responsibilities: [
       "Developed the database schema and backend",
@@ -97,8 +94,7 @@ let projectArray = [
     ],
   },
   {
-    img:
-      "https://user-images.githubusercontent.com/39058941/115154017-68e04980-a096-11eb-8c0c-820652ed499e.png",
+    img: "https://user-images.githubusercontent.com/39058941/115154017-68e04980-a096-11eb-8c0c-820652ed499e.png",
     title: "Sudoku",
     description:
       "A sudoku challenge for users, where they can solve or submit their own puzzles and get them solved.",
@@ -115,7 +111,7 @@ let projectArray = [
     ],
   },
   {
-    img: "https://i.ibb.co/dQsgGv8/product-hunt.png",
+    img: "https://user-images.githubusercontent.com/39058941/118371705-7d4b2f80-b5cb-11eb-9cfd-a5a917f759e0.png",
     title: "Product Hunt",
     description:
       "An online product portal where users can browse, research, and post products. ",
