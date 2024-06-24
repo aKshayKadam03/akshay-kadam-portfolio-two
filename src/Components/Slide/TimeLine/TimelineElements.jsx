@@ -33,7 +33,17 @@ const Responsibilities = styled.div`
 function ChronoTimeline({ currentTheme }) {
   const items = [
     {
-      title: "October 2020 - Present",
+      title: "July 2021 - Present",
+      cardTitle: "Senior Software Engineer",
+      cardSubtitle: "UrbanPiper Technologies Pvt Ltd",
+      cardDetailedText: [
+        "UrbanPiper offers a platform for end-to-end automation of critical workflows in the online food delivery ecosystem.",
+		"Worked on WhiteLabel ordering solution.",
+		"Worked on the integration of payment gateways."
+      ],
+    },
+    {
+      title: "October 2020 - June 2021",
       cardSubtitle: "Masai School",
       cardTitle: "Full Stack Web Development",
       cardDetailedText: ["A full stack web development course."],

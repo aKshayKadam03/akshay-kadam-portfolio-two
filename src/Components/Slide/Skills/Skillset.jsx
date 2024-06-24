@@ -16,6 +16,10 @@ import redis from "../../Icons/redis.svg";
 import git from "../../Icons/git.svg";
 import heroku from "../../Icons/heroku.svg";
 import mysql from "../../Icons/mysql.svg";
+import python from "../../Icons/python.svg";
+import typescript from "../../Icons/typescript-icon.svg";
+import nestjs from "../../Icons/nestjs.svg";
+import fastapi from '../../Icons/fastapi.svg';
 
 const frontEndIcons = [
   { icon: html, caption: "HTML" },
@@ -31,6 +35,10 @@ const frontEndIcons = [
   { icon: redis, caption: "Redis" },
   { icon: git, caption: "Git" },
   { icon: heroku, caption: "Heroku" },
+  { icon: python, caption: "Python" },
+  { icon: typescript, caption: "TypeScript" },
+  { icon: nestjs, caption: "NestJS" },
+  { icon: fastapi, caption: "FastAPI" },
 ];
 
 const SkillWrapper = styled.div`

@@ -156,12 +156,11 @@ function Head({ currentTheme, themeToggler }) {
               <p>AKSHAY KADAM</p>
             </ParagraphWrapper>
             <div>
-              <h1>Full Stack Web Developer</h1>
+              <h1>Software Engineer</h1>
             </div>
             <ParagraphWrapper>
               <p>
-                Hi, its nice to meet you. I am a full stack developer residing
-                in Karnataka, India.
+                Hi there, I'm Akshay Kadam, nice to meet you!
               </p>
             </ParagraphWrapper>
             <ActionsDiv>

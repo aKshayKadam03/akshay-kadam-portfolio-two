@@ -30,11 +30,13 @@ const FooterWrapper = styled.div`
 `;
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <FooterWrapper id="contact">
       <ParagraphWrapper>
         <p>
-          <span>© 2021</span>|
+          <span>© {currentYear}</span>|
           <a
             target="_blank"
             rel="noreferrer"
