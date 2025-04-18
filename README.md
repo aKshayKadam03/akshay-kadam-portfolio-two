@@ -1,7 +1,6 @@
 # Portfolio 
 
-This portfolio was built under guidance of masai school instructors during the full stack web development course.
-
+The portfolio was built in 2020-2021, please bare with me if it seems old
  
 [Live Demo](https://akshaykadam.tech/)
 
